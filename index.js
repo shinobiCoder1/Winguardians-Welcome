@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create a button to unmute
     var unmuteButton = document.createElement('button');
-    unmuteButton.innerHTML = 'Unmute Music';
+    unmuteButton.innerHTML = 'Mute Music';
     unmuteButton.id = 'unmuteButton';
     document.body.appendChild(unmuteButton);
 
